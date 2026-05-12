@@ -380,18 +380,18 @@ export function TestimonialsSection() {
 					</p>
 				</SectionReveal>
 
-				<div className="relative mt-12 h-[420px]">
+				<div className="relative mt-12">
 					{groups.map((group, gi) => (
 						<div
 							key={gi}
-							className={`grid h-full gap-6 md:grid-cols-3 transition-all duration-700 ease-in-out ${
+							className={`grid gap-6 md:grid-cols-3 transition-all duration-700 ease-in-out ${
 								gi === slide ? "opacity-100 visible relative" : "opacity-0 invisible absolute inset-0"
 							}`}
 						>
 							{group.map(t => (
-								<blockquote key={t.name} className="flex h-full flex-col rounded-[1.75rem] border border-foreground/15 bg-foreground/[0.045] p-8">
-									<p className="flex-1 overflow-y-auto text-foreground/70 leading-relaxed">"{t.quote}"</p>
-									<div className="mt-8 shrink-0 border-t border-foreground/10 pt-5">
+								<blockquote key={t.name} className="flex min-h-[280px] flex-col rounded-[1.75rem] border border-foreground/15 bg-foreground/[0.045] p-6 sm:p-8">
+									<p className="flex-1 text-foreground/70 leading-relaxed">"{t.quote}"</p>
+									<div className="mt-6 shrink-0 border-t border-foreground/10 pt-4">
 										<p className="font-mono text-xs uppercase tracking-[0.24em] text-accent">{t.name}</p>
 										<p className="mt-1.5 font-mono text-xs uppercase tracking-[0.18em] text-foreground/45">{t.role}</p>
 									</div>
