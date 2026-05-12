@@ -1,0 +1,2 @@
+[     524ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=fad45fdb:14336
+[  106511ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/640px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg:0

@@ -1,0 +1,580 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - figure [ref=e10]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: https://atc.xyz
+        - navigation "Menu" [ref=e15]:
+          - generic "Menu Toggle" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - generic [ref=e19]:
+                  - generic [ref=e20]:
+                    - generic [ref=e21]:
+                      - img [ref=e22]
+                      - generic [ref=e25]: 
+                    - generic [ref=e26]: Services
+                  - button "Open Services":
+                    - generic [ref=e27] [cursor=pointer]: Open Services
+              - listitem [ref=e28]:
+                - link "Public Sector" [ref=e30] [cursor=pointer]:
+                  - /url: /public-sector/
+                  - generic [ref=e31]: Public Sector
+              - listitem [ref=e32]:
+                - generic [ref=e33]:
+                  - generic [ref=e34]:
+                    - generic [ref=e35]:
+                      - img [ref=e36]
+                      - generic [ref=e39]: 
+                    - generic [ref=e40]: Products
+                  - button "Open Products":
+                    - generic [ref=e41] [cursor=pointer]: Open Products
+              - listitem [ref=e42]:
+                - link "AI Services" [ref=e44] [cursor=pointer]:
+                  - /url: /ai-services/
+                  - generic [ref=e45]: AI Services
+              - listitem [ref=e46]:
+                - generic [ref=e47]:
+                  - generic [ref=e48]:
+                    - generic [ref=e49]:
+                      - generic [ref=e50]: 
+                      - generic [ref=e52]: 
+                    - generic [ref=e53]: Staffing
+                  - button "Open Staffing":
+                    - generic [ref=e54] [cursor=pointer]: Open Staffing
+              - listitem [ref=e55]:
+                - generic [ref=e56]:
+                  - generic [ref=e57]:
+                    - generic [ref=e58]:
+                      - generic [ref=e59]: 
+                      - generic [ref=e61]: 
+                    - generic [ref=e62]: Insights
+                  - button "Open Insights":
+                    - generic [ref=e63] [cursor=pointer]: Open Insights
+              - listitem [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - generic [ref=e67]:
+                      - generic [ref=e68]: 
+                      - generic [ref=e70]: 
+                    - generic [ref=e71]: Company
+                  - button "Open Company":
+                    - generic [ref=e72] [cursor=pointer]: Open Company
+        - link "Estimate Project" [ref=e77] [cursor=pointer]:
+          - /url: /contact-us/
+          - generic [ref=e79]: Estimate Project
+    - main [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e83]:
+          - heading "Designing innovative solutions for today’s complex challenges" [level=1] [ref=e86]
+          - generic [ref=e88]: In today’s rapidly evolving business landscape, organizations are facing a variety of intricate challenges that demand innovative solutions. Leverage our dedicated team of experts to design and implement groundbreaking strategies and technologies that address your challenges head-on.
+          - link "Book a meeting" [ref=e92] [cursor=pointer]:
+            - /url: /contact-us/
+            - generic [ref=e93]:
+              - img [ref=e95]
+              - generic [ref=e97]: Book a meeting
+        - generic [ref=e105]:
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - heading "SERVICES" [level=3] [ref=e110]
+              - paragraph [ref=e111]: Enterprise application development
+            - paragraph [ref=e112]: Every business is unique and our enterprise app development services are designed to allow us to work closely with you to identify the challenges you face and develop custom applications that meets your specific needs.
+            - generic [ref=e113]:
+              - img "Image 1" [ref=e115]
+              - link "Learn More" [ref=e116] [cursor=pointer]:
+                - /url: /services/enterprise-application-development/
+                - text: Learn More
+                - img [ref=e117]
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - heading [level=3] [ref=e123]: SERVICES
+              - paragraph [ref=e124]: AI Services
+            - paragraph [ref=e125]: Comprehensive platform and expert services that deliver production-ready AI solutions at enterprise scale.
+            - generic [ref=e126]:
+              - img [ref=e128]
+              - link [ref=e129] [cursor=pointer]:
+                - /url: /ai-services/
+                - text: Learn More
+                - img [ref=e130]
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - heading [level=3] [ref=e136]: SERVICES
+              - paragraph [ref=e137]: Product development
+            - paragraph [ref=e138]: Explore our product development services that range from market research, user interviews, competition analysis, marketing services, ideation to MVP, we provide a holistic solution to bring your vision to life.
+            - generic [ref=e139]:
+              - img [ref=e141]
+              - link [ref=e142] [cursor=pointer]:
+                - /url: /design/product-design/
+                - text: Learn More
+                - img [ref=e143]
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - heading [level=3] [ref=e149]: SERVICES
+              - paragraph [ref=e150]: Cloud & DevOps
+            - paragraph [ref=e151]: Discover accelerated growth and streamline operations with our end-to-end Cloud DevOps solutions enabling scalability, cost-effectiveness, enhanced security, automation, and agility.
+            - generic [ref=e152]:
+              - img [ref=e154]
+              - link [ref=e155] [cursor=pointer]:
+                - /url: /services/devops-solution/
+                - text: Learn More
+                - img [ref=e156]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - heading [level=3] [ref=e162]: RESOURCES
+              - paragraph [ref=e163]: Enterprise employee training
+            - paragraph [ref=e164]: Upskill your employees with our comprehensive training programs, covering industry-leading certifications such as PMP, Scrum Alliance,and SAFe to empower your teams to thrive.
+            - generic [ref=e165]:
+              - img [ref=e167]
+              - link [ref=e168] [cursor=pointer]:
+                - /url: https://american-technology.net/trainings/
+                - text: Learn More
+                - img [ref=e169]
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - heading [level=3] [ref=e175]: SERVICES
+              - paragraph [ref=e176]: Automated testing
+            - paragraph [ref=e177]: Elevate your software quality with our Enterprise Automation Testing Services. We blend the power of AI-driven precision and thorough coverage to bring you faster testing, reliable results,valuable insights, shaping a future of exceptional software.
+            - generic [ref=e178]:
+              - img [ref=e180]
+              - link [ref=e181] [cursor=pointer]:
+                - /url: /services/software-testing/
+                - text: Learn More
+                - img [ref=e182]
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading [level=3] [ref=e188]: SERVICES
+              - paragraph [ref=e189]: Staffing
+            - paragraph [ref=e190]: Access top-tier IT talent and build a high-performing team with our IT staffing services, connecting you with exceptional talent to meet your unique business needs.
+            - generic [ref=e191]:
+              - img [ref=e193]
+              - link [ref=e194] [cursor=pointer]:
+                - /url: /staffing/staffing-augmentation/
+                - text: Learn More
+                - img [ref=e195]
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - heading [level=3] [ref=e201]: SERVICES
+              - paragraph [ref=e202]: Reveal assessment platform
+            - paragraph [ref=e203]: Reveal is an enterprise survey software to quickly uncover your process gaps and get actionable insights to drive your business strategy.
+            - generic [ref=e204]:
+              - img [ref=e206]
+              - link [ref=e207] [cursor=pointer]:
+                - /url: https://reveal-tech.org/
+                - text: Learn More
+                - img [ref=e208]
+        - generic [ref=e211]:
+          - heading "Turn ideas into tangible products" [level=2] [ref=e214]
+          - generic [ref=e216]: From market research and ideation to MVP creation, engage our powerhouse of experts to turbocharge your organization’s product development initiatives.
+        - generic "Tabs. Open items with Enter or Space, close with Escape and navigate using the Arrow keys." [ref=e221]:
+          - tablist [ref=e222]:
+            - tab "Market Research & Analysis" [selected] [ref=e223] [cursor=pointer]:
+              - generic [ref=e224]:
+                - img
+                - img [ref=e227]
+              - generic [ref=e230]:
+                - text: Market Research
+                - text: "& Analysis"
+            - tab "Ideation to MVP" [ref=e231] [cursor=pointer]:
+              - generic [ref=e232]:
+                - img [ref=e233]
+                - img
+              - generic [ref=e240]:
+                - text: Ideation to
+                - text: MVP
+            - tab "Go-to-market strategy" [ref=e241] [cursor=pointer]:
+              - generic [ref=e242]:
+                - img [ref=e243]
+                - img
+              - generic [ref=e250]:
+                - text: Go-to-market
+                - text: strategy
+            - tab "Maintenance Support" [ref=e251] [cursor=pointer]:
+              - generic [ref=e252]:
+                - img [ref=e253]
+                - img
+              - generic [ref=e258]:
+                - text: Maintenance
+                - text: Support
+          - tabpanel "Market Research & Analysis" [ref=e260]:
+            - generic [ref=e265]:
+              - heading "Market Research & Analysis" [level=2] [ref=e268]
+              - generic [ref=e270]: We conduct sophisticated market research techniques, in-depth user interviews, and thorough competition analysis to reveal market trends, gain valuable user insights, and identify lucrative growth opportunities for clients.
+        - generic [ref=e272]:
+          - heading "Empowering enterprises with customized solutions" [level=2] [ref=e275]:
+            - text: Empowering enterprises with
+            - text: customized solutions
+          - generic [ref=e277]: A transformative approach from mobility and efficiency to data insights and modernization.
+          - link "Get Started" [ref=e281] [cursor=pointer]:
+            - /url: /contact-us/
+            - generic [ref=e282]:
+              - img [ref=e284]
+              - generic [ref=e286]: Get Started
+          - toolbar [ref=e291]:
+            - listbox [ref=e293]:
+              - generic [ref=e295]:
+                - generic [ref=e296]:
+                  - heading [level=2] [ref=e297]: "Stability & innovation through legacy modernization:"
+                  - paragraph [ref=e299]: Modernize and transform your legacy systems to ensure stability, scalability, and innovation in the digital age. Our technical team adopts industry best practices, migration frameworks, and modernization strategies to revitalize your existing infrastructure, leverage cloud technologies, and optimize processes, enabling your organization to embrace innovation while maintaining stability and minimizing risks.
+                - img [ref=e301]
+              - option "Enterprise mobility through hybrid & native apps Seamlessly deliver secure mobility solutions with our expert hybrid and native app development. Optimal performance, offline capabilities, and native user experience across platforms keep your workforce connected and productive on the go. Enterprise mobility through hybrid & native apps" [ref=e302]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]:
+                    - heading "Enterprise mobility through hybrid & native apps" [level=2] [ref=e305]
+                    - paragraph [ref=e307]: Seamlessly deliver secure mobility solutions with our expert hybrid and native app development. Optimal performance, offline capabilities, and native user experience across platforms keep your workforce connected and productive on the go.
+                  - img "Enterprise mobility through hybrid & native apps" [ref=e309]
+              - option [ref=e310]:
+                - generic [ref=e311]:
+                  - generic [ref=e312]:
+                    - heading [level=2] [ref=e313]: "Business value extraction through data science & analytics:"
+                    - paragraph [ref=e315]: Unlock valuable insights from your data and extract meaningful business value through advanced data science and analytics. Our technical experts leverage cutting-edge algorithms, machine learning, and predictive modeling to uncover hidden patterns, optimize processes, and drive data-informed decision-making, giving your organization a competitive edge in the market.
+                  - img [ref=e317]
+              - option [ref=e318]:
+                - generic [ref=e319]:
+                  - generic [ref=e320]:
+                    - heading [level=2] [ref=e321]: "Ecosystem management through application integrations:"
+                    - paragraph [ref=e323]: Achieve seamless integration and interoperability across your enterprise ecosystem with our expertise in application integrations. Our technical specialists ensure smooth data flow, synchronization, and collaboration between disparate systems, enabling enhanced communication, streamlined workflows, and improved overall operational efficiency.
+                  - img [ref=e325]
+              - option [ref=e326]:
+                - generic [ref=e327]:
+                  - generic [ref=e328]:
+                    - heading [level=2] [ref=e329]: "Stability & innovation through legacy modernization:"
+                    - paragraph [ref=e331]: Modernize and transform your legacy systems to ensure stability, scalability, and innovation in the digital age. Our technical team adopts industry best practices, migration frameworks, and modernization strategies to revitalize your existing infrastructure, leverage cloud technologies, and optimize processes, enabling your organization to embrace innovation while maintaining stability and minimizing risks.
+                  - img [ref=e333]
+              - generic [ref=e335]:
+                - generic [ref=e336]:
+                  - heading [level=2] [ref=e337]: Enterprise mobility through hybrid & native apps
+                  - paragraph [ref=e339]: Seamlessly deliver secure mobility solutions with our expert hybrid and native app development. Optimal performance, offline capabilities, and native user experience across platforms keep your workforce connected and productive on the go.
+                - img [ref=e341]
+            - tablist [ref=e342]:
+              - listitem [ref=e343]:
+                - button "1" [ref=e344] [cursor=pointer]
+              - listitem [ref=e345]:
+                - button [ref=e346] [cursor=pointer]: "2"
+              - listitem [ref=e347]:
+                - button [ref=e348] [cursor=pointer]: "3"
+              - listitem [ref=e349]:
+                - button [ref=e350] [cursor=pointer]: "4"
+        - generic [ref=e352]:
+          - heading "Intuitive and engaging UI/UX design" [level=2] [ref=e355]
+          - paragraph [ref=e358]: At ATC, we strive to deliver human-centric UI designs that are impactful and personalized for your audience.
+        - generic [ref=e374]:
+          - generic [ref=e375]:
+            - heading "User-centric design approach" [level=2] [ref=e380]
+            - generic [ref=e382]: We create user-centric experiences that captivate your audience, drive engagement, and maximize software utilization.
+          - generic [ref=e383]:
+            - heading "Design system expertise" [level=2] [ref=e388]
+            - generic [ref=e390]: We develop scalable and cohesive systems to create consistency, efficiency, and brand integrity across all software interfaces.
+          - generic [ref=e391]:
+            - heading "Streamline workflows" [level=2] [ref=e396]
+            - generic [ref=e398]: With our agile workflows, we deliver rapid and iterative UI/UX solutions that align with your business objectives.
+          - generic [ref=e399]:
+            - heading "Data-driven UI/UX solutions" [level=2] [ref=e404]
+            - generic [ref=e406]: Leveraging user insights and data analytics to inform design decisions, resulting in UI/UX solutions that are tailored to meet your business goals and user needs.
+        - generic [ref=e408]:
+          - heading "Cloud solutions- unlimited growth" [level=2] [ref=e411]
+          - generic [ref=e413]: Experience the power of scalable infrastructure, enhanced agility, and unmatched flexibility to drive your business forward.
+        - generic [ref=e415]:
+          - generic [ref=e420]:
+            - generic [ref=e422]:
+              - heading "Failsafe growth through multi-cloud & hybrid cloud implementation:" [level=2] [ref=e427]
+              - generic [ref=e429]: Achieve failsafe growth with our multi-cloud and hybrid cloud implementation strategies. Leverage the benefits of diverse cloud environments to ensure redundancy, high availability, and seamless scalability for your critical applications.
+            - generic [ref=e431]:
+              - heading "Continuous cost savings through IT Infra optimization analysis:" [level=2] [ref=e436]
+              - paragraph [ref=e439]:
+                - text: Optimize your IT infrastructure and
+                - text: drive continuous cost savings through our expert analysis. Identify
+                - text: opportunities for efficiency
+                - text: improvements, resource optimization, and cost reduction, ensuring optimal utilization of your cloud resources.
+          - generic [ref=e444]:
+            - heading "Self Service through EaaS (Environment as a Service) and on-demand environments:" [level=2] [ref=e449]
+            - generic [ref=e451]: Empower your teams with self-service capabilities through our on-demand environments. Our Environment as a Service (EaaS) solutions enable your developers and testers to quickly provision and access the resources they need, reducing wait times and boosting productivity.
+          - generic [ref=e456]:
+            - generic [ref=e458]:
+              - heading "Ring-fencing through robust infra & app security:" [level=2] [ref=e463]
+              - paragraph [ref=e466]: Protect your valuable assets without robust infrastructure and application security measures. We employ cutting-edge technologies, advanced encryption, and rigorous security protocols defense against cyber threats, ensuring your data remains safe and secure.
+            - generic [ref=e468]:
+              - heading "Early warning through monitoring & auto healing:" [level=2] [ref=e473]
+              - generic [ref=e475]: Stay one step ahead with our proactive monitoring and auto healing capabilities. Our advanced monitoring systems and automated healing mechanisms warning signs, and continuous system uptime for uninterrupted business operations.
+        - generic [ref=e479]:
+          - heading "Enterprise automation testing" [level=2] [ref=e482]
+          - generic [ref=e484]: Elevate testing standards with AI-driven test automation for reliable software quality assurance.
+        - generic [ref=e486]:
+          - generic [ref=e487]:
+            - generic [ref=e489]:
+              - heading "Comprehensive test coverage:" [level=2] [ref=e494]
+              - generic [ref=e496]: With our robust test automation framework, we ensure that all critical aspects of the software are thoroughly tested, leaving no room for potential issues to slip through the cracks. By automating tests across different scenarios, platforms, and configurations, we provide customers with peace of mind knowing their applications undergo comprehensive testing.
+            - generic [ref=e498]:
+              - heading "Scalability and Reusability" [level=2] [ref=e503]
+              - paragraph [ref=e506]: Our solutions empower organizations to handle large test suites, complex environments, and effortlessly scale testing efforts. With a robust framework and reusable scripts, we accelerate development cycles, optimize performance, and maximize ROI for test automation.
+          - generic [ref=e510]:
+            - generic [ref=e512]:
+              - heading "Continuous integration and Continuous Testing:" [level=2] [ref=e517]
+              - paragraph [ref=e520]: "AI-driven CI/CT for optimized software development lifecycle: Automate integration and testing processes, prioritize test execution dynamically, identify defects faster, and deliver reliable, AI-powered solutions with rapid feedback"
+            - generic [ref=e522]:
+              - heading "Advanced Reporting and Analytics" [level=2] [ref=e527]
+              - generic [ref=e529]: Our advanced reporting solutions capture crucial test data, track coverage, and leverage analytics to identify trends and anomalies. With actionable insights, optimize testing strategies and drive continuous improvement throughout the software development lifecycle.
+        - generic [ref=e531]:
+          - generic [ref=e532]:
+            - heading "RPA and beyond" [level=2] [ref=e535]
+            - generic [ref=e537]: Empowering efficiency and productivity in your business.
+          - region "Image Carousel" [ref=e541]:
+            - generic [ref=e542]:
+              - group [ref=e543]:
+                - figure [ref=e544]:
+                  - img [ref=e545]
+                  - generic [ref=e546]:
+                    - heading [level=2] [ref=e547]: "Democratize knowledge prompt engineering:"
+                    - text: Empower your organization with a collaborative platform for seamless insights and expertise sharing. Say goodbye to silos and hello toaccelerated problem-solving and informed decision-making.Democratize knowledge and foster a culture of collaboration, innovation, and continuous improvement. Unlock yourorganization's game-changing solution.
+              - group [ref=e548]:
+                - figure [ref=e549]:
+                  - img [ref=e550]
+                  - generic [ref=e551]:
+                    - heading [level=2] [ref=e552]: "Digest documents with summarization:"
+                    - text: Effortlessly extract key information from complex documents for informed decisions. Embrace streamlined workflows, enhanced productivity, anda competitive edge in the fast-paced business landscape. Say goodbye to information overload and welcome efficient knowledge extraction withour powerful Summarization solution
+              - group "1 / 4" [ref=e553]:
+                - 'figure "Process mining for bottleneck discovery: Discover hidden bottlenecks and streamline operations for remarkable customer benefits. Gain actionable insights, optimize productivity, reduce costs, and improve customer satisfaction.Embrace a proactive approach to process improvement and transform your organization for enhanced efficiency and a competitive edge in the market." [ref=e554]':
+                  - img "Process mining for bottleneck discovery:Discover hidden bottlenecks and streamline operations for remarkable customer benefits. Gain actionable insights, optimize productivity, reduce costs, and improve customer satisfaction.Embrace a proactive approach to process improvement and transform your organization for enhanced efficiency and a competitive edge in the market." [ref=e555]
+                  - generic [ref=e556]:
+                    - heading "Process mining for bottleneck discovery:" [level=2] [ref=e557]
+                    - text: Discover hidden bottlenecks and streamline operations for remarkable customer benefits. Gain actionable insights, optimize productivity, reduce costs, and improve customer satisfaction.Embrace a proactive approach to process improvement and transform your organization for enhanced efficiency and a competitive edge in the market.
+              - group "2 / 4" [ref=e558]:
+                - 'figure "Bot for repetitive work, AI for decision making: Supercharge efficiency and drive exceptional customer benefits. Save time with bots handling repetitive tasks, while AI-driven decisions provide valuable insights for informed choices. Experience streamlined processes, improved accuracy, and a competitive edge in the market. Embrace the future of automation and decision-making to unlock your organization''s full potential." [ref=e559]':
+                  - img "Bot for repetitive work, AI for decision making:Supercharge efficiency and drive exceptional customer benefits. Save time with bots handling repetitive tasks, while AI-driven decisions provide valuable insights for informed choices. Experience streamlined processes, improved accuracy, and a competitive edge in the market. Embrace the future of automation and decision-making to unlock your organization's full potential." [ref=e560]
+                  - generic [ref=e561]:
+                    - heading "Bot for repetitive work, AI for decision making:" [level=2] [ref=e562]
+                    - text: Supercharge efficiency and drive exceptional customer benefits. Save time with bots handling repetitive tasks, while AI-driven decisions provide valuable insights for informed choices. Experience streamlined processes, improved accuracy, and a competitive edge in the market. Embrace the future of automation and decision-making to unlock your organization's full potential.
+              - group [ref=e563]:
+                - figure [ref=e564]:
+                  - img [ref=e565]
+                  - generic [ref=e566]:
+                    - heading [level=2] [ref=e567]: "Democratize knowledge prompt engineering:"
+                    - text: Empower your organization with a collaborative platform for seamless insights and expertise sharing. Say goodbye to silos and hello toaccelerated problem-solving and informed decision-making.Democratize knowledge and foster a culture of collaboration, innovation, and continuous improvement. Unlock yourorganization's game-changing solution.
+              - group [ref=e568]:
+                - figure [ref=e569]:
+                  - img [ref=e570]
+                  - generic [ref=e571]:
+                    - heading [level=2] [ref=e572]: "Digest documents with summarization:"
+                    - text: Effortlessly extract key information from complex documents for informed decisions. Embrace streamlined workflows, enhanced productivity, anda competitive edge in the fast-paced business landscape. Say goodbye to information overload and welcome efficient knowledge extraction withour powerful Summarization solution
+              - group [ref=e573]:
+                - figure [ref=e574]:
+                  - img [ref=e575]
+                  - generic [ref=e576]:
+                    - heading [level=2] [ref=e577]: "Process mining for bottleneck discovery:"
+                    - text: Discover hidden bottlenecks and streamline operations for remarkable customer benefits. Gain actionable insights, optimize productivity, reduce costs, and improve customer satisfaction.Embrace a proactive approach to process improvement and transform your organization for enhanced efficiency and a competitive edge in the market.
+              - group [ref=e578]:
+                - figure [ref=e579]:
+                  - img [ref=e580]
+                  - generic [ref=e581]:
+                    - heading [level=2] [ref=e582]: "Bot for repetitive work, AI for decision making:"
+                    - text: Supercharge efficiency and drive exceptional customer benefits. Save time with bots handling repetitive tasks, while AI-driven decisions provide valuable insights for informed choices. Experience streamlined processes, improved accuracy, and a competitive edge in the market. Embrace the future of automation and decision-making to unlock your organization's full potential.
+            - generic [ref=e583]:
+              - button "Go to slide 1" [ref=e584] [cursor=pointer]
+              - button "Go to slide 2" [ref=e585] [cursor=pointer]
+              - button "Go to slide 3" [ref=e586] [cursor=pointer]
+              - button "Go to slide 4" [ref=e587] [cursor=pointer]
+        - generic [ref=e589]:
+          - heading "Partner with ATC and tap into unlimited scalability" [level=2] [ref=e592]
+          - link "Contact us" [ref=e596] [cursor=pointer]:
+            - /url: /contact-us/
+            - generic [ref=e597]:
+              - img [ref=e599]
+              - generic [ref=e601]: Contact us
+    - contentinfo [ref=e602]:
+      - generic [ref=e604]:
+        - generic [ref=e605]:
+          - heading "ENTERPRISE SERVICES" [level=2] [ref=e608]
+          - paragraph [ref=e611]:
+            - link "Enterprise Application Development" [ref=e612] [cursor=pointer]:
+              - /url: /services/enterprise-application-development/
+          - paragraph [ref=e615]:
+            - link "Cloud Transformation" [ref=e616] [cursor=pointer]:
+              - /url: /services/cloud-transformation/
+          - paragraph [ref=e619]:
+            - link "DevOps Solution" [ref=e620] [cursor=pointer]:
+              - /url: /services/devops-solution/
+          - paragraph [ref=e623]:
+            - link "Robotic Process Automation" [ref=e624] [cursor=pointer]:
+              - /url: /services/robotic-process-automation/
+          - paragraph [ref=e627]:
+            - link "Agile Transformation" [ref=e628] [cursor=pointer]:
+              - /url: /services/agile-transformation/
+          - paragraph [ref=e631]:
+            - link "Software Testing" [ref=e632] [cursor=pointer]:
+              - /url: /services/software-testing/
+          - paragraph [ref=e635]:
+            - link "AI/ML Engineering" [ref=e636] [cursor=pointer]:
+              - /url: /services/ai-ml-engineering/
+          - paragraph [ref=e639]:
+            - link "Digital Transformation" [ref=e640] [cursor=pointer]:
+              - /url: /services/digital-transformation/
+          - paragraph [ref=e643]:
+            - link "Go-To-Market Strategy" [ref=e644] [cursor=pointer]:
+              - /url: /services/go-to-market-strategy/
+          - paragraph [ref=e647]:
+            - link "Mobile Application Development" [ref=e648] [cursor=pointer]:
+              - /url: /services/mobile-application-development/
+          - heading "DESIGN" [level=2] [ref=e651]
+          - paragraph [ref=e654]:
+            - link "UX Design" [ref=e655] [cursor=pointer]:
+              - /url: /design/ux-design/
+          - paragraph [ref=e658]:
+            - link "UI Design" [ref=e659] [cursor=pointer]:
+              - /url: /design/ui-design/
+          - paragraph [ref=e662]:
+            - link "Branding" [ref=e663] [cursor=pointer]:
+              - /url: /design/branding/
+          - paragraph [ref=e666]:
+            - link "2D Animation" [ref=e667] [cursor=pointer]:
+              - /url: /design/2d-animation/
+          - paragraph [ref=e670]:
+            - link "3D Animation" [ref=e671] [cursor=pointer]:
+              - /url: /design/3d-animation/
+          - paragraph [ref=e674]:
+            - link "Motion Graphics" [ref=e675] [cursor=pointer]:
+              - /url: /design/motion-graphics/
+          - paragraph [ref=e678]:
+            - link "Product Design" [ref=e679] [cursor=pointer]:
+              - /url: /design/product-design/
+          - paragraph [ref=e682]:
+            - link "Design Thinking" [ref=e683] [cursor=pointer]:
+              - /url: /design/design-thinking/
+        - heading "PUBLIC SECTOR" [level=2] [ref=e687]:
+          - link "PUBLIC SECTOR" [ref=e688] [cursor=pointer]:
+            - /url: /public-sector/
+        - generic [ref=e689]:
+          - heading "PRODUCTS" [level=2] [ref=e692]
+          - paragraph [ref=e695]:
+            - link "Reveal" [ref=e696] [cursor=pointer]:
+              - /url: https://reveal-tech.org/
+          - paragraph [ref=e699]:
+            - link "Freshflows" [ref=e700] [cursor=pointer]:
+              - /url: https://freshflows.io/
+          - paragraph [ref=e703]:
+            - link "KnowRisk®" [ref=e704] [cursor=pointer]:
+              - /url: /product/knowrisk/
+          - paragraph [ref=e707]:
+            - link "Auzmor" [ref=e708] [cursor=pointer]:
+              - /url: https://auzmor.com/
+        - generic [ref=e709]:
+          - heading "INSIGHTS" [level=2] [ref=e712]
+          - paragraph [ref=e715]: Resources
+          - paragraph [ref=e718]:
+            - link "Blog" [ref=e719] [cursor=pointer]:
+              - /url: https://blog.american-technology.net/
+          - paragraph [ref=e722]:
+            - link "Case Studies" [ref=e723] [cursor=pointer]:
+              - /url: /resources/casestudy/
+          - paragraph [ref=e726]:
+            - link "White papers" [ref=e727] [cursor=pointer]:
+              - /url: https://blog.american-technology.net/whitepapers/
+          - paragraph [ref=e730]:
+            - link "Videos" [ref=e731] [cursor=pointer]:
+              - /url: https://blog.american-technology.net/videos/
+          - paragraph [ref=e734]: Industries
+          - paragraph [ref=e737]:
+            - link "Financial" [ref=e738] [cursor=pointer]:
+              - /url: /industries/financial/
+          - paragraph [ref=e741]:
+            - link "Manufacturing" [ref=e742] [cursor=pointer]:
+              - /url: /industries/manufacturing/
+          - paragraph [ref=e745]:
+            - link "Healthcare" [ref=e746] [cursor=pointer]:
+              - /url: /industries/healthcare/
+          - paragraph [ref=e749]:
+            - link "Human Resources" [ref=e750] [cursor=pointer]:
+              - /url: /industries/human-resources/
+          - paragraph [ref=e753]:
+            - link "R & D" [ref=e754] [cursor=pointer]:
+              - /url: /industries/rd/
+          - paragraph [ref=e757]:
+            - link "Software" [ref=e758] [cursor=pointer]:
+              - /url: /industries/software/
+        - generic [ref=e759]:
+          - heading "STAFFING" [level=2] [ref=e762]
+          - paragraph [ref=e765]:
+            - link "Staffing Augmentation" [ref=e766] [cursor=pointer]:
+              - /url: /staffing/staffing-augmentation/
+          - paragraph [ref=e769]:
+            - link "Dedicated Retainer Teams" [ref=e770] [cursor=pointer]:
+              - /url: /staffing/dedicated-retainer-teams/
+          - paragraph [ref=e773]:
+            - link "Cybersecurity Staffing" [ref=e774] [cursor=pointer]:
+              - /url: /staffing/cybersecurity-staffing
+          - heading "Policies & Compliance" [level=2] [ref=e777]
+          - paragraph [ref=e780]:
+            - link "Equal Employment Opportunity" [ref=e781] [cursor=pointer]:
+              - /url: /policy-and-compliance/#equal-policy
+          - paragraph [ref=e784]:
+            - link "Sexual Harassment Policy" [ref=e785] [cursor=pointer]:
+              - /url: /policy-and-compliance/#sexual-harassment-policy
+        - generic [ref=e786]:
+          - heading "COMPANY" [level=2] [ref=e789]
+          - heading "Who we are" [level=2] [ref=e792]
+          - paragraph [ref=e795]:
+            - link "About ATC" [ref=e796] [cursor=pointer]:
+              - /url: /company/who-we-are/about-atc/
+          - paragraph [ref=e799]:
+            - link "Our Mission" [ref=e800] [cursor=pointer]:
+              - /url: /company/who-we-are/our-mission/
+          - heading "Careers" [level=2] [ref=e803]:
+            - link "Careers" [ref=e804] [cursor=pointer]:
+              - /url: /company/careers/
+          - heading "Ventures" [level=2] [ref=e807]
+          - paragraph [ref=e810]:
+            - link "Startup Studios" [ref=e811] [cursor=pointer]:
+              - /url: https://startupstudios.framer.ai/
+          - heading "Contact Us" [level=2] [ref=e814]:
+            - link "Contact Us" [ref=e815] [cursor=pointer]:
+              - /url: /contact-us/
+        - generic [ref=e816]:
+          - heading "AI SERVICES" [level=2] [ref=e819]
+          - paragraph [ref=e822]:
+            - link "Our Services" [ref=e823] [cursor=pointer]:
+              - /url: /ai-services/
+          - paragraph [ref=e826]:
+            - link "AI Readiness Audit" [ref=e827] [cursor=pointer]:
+              - /url: /ai-services/ai-readiness-audit/
+          - paragraph [ref=e830]:
+            - link "AI Platform" [ref=e831] [cursor=pointer]:
+              - /url: /ai-services/ai-platform/
+          - paragraph [ref=e834]:
+            - link "Custom LLM" [ref=e835] [cursor=pointer]:
+              - /url: /ai-services/custom-llm/
+          - paragraph [ref=e838]:
+            - link "Use Cases" [ref=e839] [cursor=pointer]:
+              - /url: /ai-services/use-cases/
+          - paragraph [ref=e842]:
+            - link "White papers" [ref=e843] [cursor=pointer]:
+              - /url: /ai-services/white-papers/
+          - paragraph [ref=e846]:
+            - link "FAQs" [ref=e847] [cursor=pointer]:
+              - /url: /faqs
+      - generic [ref=e849]:
+        - link [ref=e853] [cursor=pointer]:
+          - /url: https://atc.xyz
+        - list [ref=e857]:
+          - listitem [ref=e858]:
+            - link "Facebook" [ref=e859] [cursor=pointer]:
+              - /url: https://www.facebook.com/atc1team/
+              - generic [ref=e860]: Facebook
+              - img [ref=e861]
+          - listitem [ref=e863]:
+            - link "X-twitter" [ref=e864] [cursor=pointer]:
+              - /url: https://x.com/ATC_Enterprise
+              - generic [ref=e865]: X-twitter
+              - img [ref=e866]
+          - listitem [ref=e868]:
+            - link "Youtube" [ref=e869] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCrBD2N9S63sa6Q9XNcFvtPw
+              - generic [ref=e870]: Youtube
+              - img [ref=e871]
+          - listitem [ref=e873]:
+            - link "Linkedin" [ref=e874] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/american-technology-consulting
+              - generic [ref=e875]: Linkedin
+              - img [ref=e876]
+        - paragraph [ref=e881]: © 2025 ATC. All Rights Reserved
+  - generic [ref=e882]: desktop

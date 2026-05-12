@@ -1,0 +1,306 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - navigation "Primary navigation" [ref=e4]:
+      - generic [ref=e6]:
+        - button "Tech Connect Alberta Logo Tech Connect Alberta" [ref=e8] [cursor=pointer]:
+          - img "Tech Connect Alberta Logo" [ref=e9]
+          - generic [ref=e10]: Tech Connect Alberta
+        - generic [ref=e11]:
+          - button "Home" [ref=e12] [cursor=pointer]:
+            - img
+            - text: Home
+          - button "Services" [ref=e14] [cursor=pointer]:
+            - img
+            - text: Services
+            - img
+          - button "Community" [ref=e16] [cursor=pointer]:
+            - img
+            - text: Community
+            - img
+          - button "Join Us" [ref=e17] [cursor=pointer]:
+            - img
+            - text: Join Us
+    - generic [ref=e18]:
+      - generic [ref=e21]:
+        - heading "Community. Purpose. People First." [level=1] [ref=e22]:
+          - generic [ref=e23]: Community.
+          - generic [ref=e24]: Purpose.
+          - generic [ref=e25]: People First.
+        - paragraph [ref=e26]:
+          - text: Imagine a world where
+          - strong [ref=e27]: Tech Talent
+          - text: ","
+          - strong [ref=e28]: Job Seekers
+          - text: ", and"
+          - strong [ref=e29]: Entrepreneurs
+          - text: support each other
+        - paragraph [ref=e30]: Tech Connect Alberta is a community-driven social enterprise that connects people, technology, and purpose.
+        - button "Join Our Community" [ref=e32] [cursor=pointer]:
+          - text: Join Our Community
+          - img
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "Driving Results That Matter" [level=2] [ref=e36]
+          - paragraph [ref=e37]: Numbers that reflect our commitment to building a thriving tech ecosystem where everyone succeeds together.
+        - generic [ref=e38]:
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - img [ref=e43]
+              - generic [ref=e48]: 5000+
+            - heading "Active Community Members" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Tech professionals, job seekers, and entrepreneurs collaborating daily
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - img [ref=e55]
+              - generic [ref=e59]: 500+
+            - heading "Members Across Companies" [level=3] [ref=e60]
+            - paragraph [ref=e61]: Referral network spanning across leading tech organizations
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - img [ref=e66]
+              - generic [ref=e71]: 10+
+            - heading "Partner Companies" [level=3] [ref=e72]
+            - paragraph [ref=e73]: Strategic partnerships with industry-leading organizations
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - img [ref=e78]
+              - generic [ref=e84]: 200+
+            - heading "Success Stories" [level=3] [ref=e85]
+            - paragraph [ref=e86]: Individuals successfully placed and career milestones achieved every year
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - heading "Our Mission" [level=2] [ref=e90]
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: Imagine a world where Tech Talent, job seekers, and entrepreneurs support each other
+            - paragraph [ref=e93]: At Tech Connect, we're not just building a network – we're cultivating an ecosystem where innovation thrives through collaboration, mentorship, and shared growth.
+        - generic [ref=e94]:
+          - generic [ref=e98]:
+            - img [ref=e101]
+            - generic [ref=e103]:
+              - heading "Community First" [level=3] [ref=e104]
+              - paragraph [ref=e105]: We believe in the power of mutual support and collaboration in the tech industry.
+          - generic [ref=e109]:
+            - img [ref=e112]
+            - generic [ref=e117]:
+              - heading "Meaningful Connections" [level=3] [ref=e118]
+              - paragraph [ref=e119]: Facilitating genuine relationships between talent, companies, and entrepreneurs.
+          - generic [ref=e123]:
+            - img [ref=e126]
+            - generic [ref=e128]:
+              - heading "Innovation Through Unity" [level=3] [ref=e129]
+              - paragraph [ref=e130]: When diverse minds come together, breakthrough innovations emerge naturally.
+          - generic [ref=e134]:
+            - img [ref=e137]
+            - generic [ref=e141]:
+              - heading "Shared Success" [level=3] [ref=e142]
+              - paragraph [ref=e143]: Your success is our success. We grow together as a community.
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - heading "Strategic Partnerships" [level=2] [ref=e147]
+          - paragraph [ref=e148]: We collaborate with industry leaders to create opportunities, drive innovation, and build a stronger tech ecosystem together.
+          - paragraph [ref=e149]: Tech Connect operates under the umbrella of AMG Foundation (Aspire. Motivate. Give.) — a registered nonprofit organization in Alberta. AMG Foundation provides the legal and charitable framework that allows Tech Connect to run programs, events, and initiatives supporting entrepreneurs, volunteers, and under-resourced organizations.
+        - generic [ref=e151]:
+          - link "AMG Foundation logo AMG Foundation" [ref=e152] [cursor=pointer]:
+            - /url: https://www.amgfoundation.ca/
+            - generic [ref=e153]:
+              - img "AMG Foundation logo" [ref=e155]
+              - heading "AMG Foundation" [level=3] [ref=e156]
+          - link "Gateway logo Gateway" [ref=e157] [cursor=pointer]:
+            - /url: https://gatewayconnects.ca/
+            - generic [ref=e158]:
+              - img "Gateway logo" [ref=e160]
+              - heading "Gateway" [level=3] [ref=e161]
+          - link "InceptionU logo InceptionU" [ref=e162] [cursor=pointer]:
+            - /url: https://inceptionu.com/
+            - generic [ref=e163]:
+              - img "InceptionU logo" [ref=e165]
+              - heading "InceptionU" [level=3] [ref=e166]
+          - link "Platform Calgary logo Platform Calgary" [ref=e167] [cursor=pointer]:
+            - /url: https://www.platformcalgary.com/
+            - generic [ref=e168]:
+              - img "Platform Calgary logo" [ref=e170]
+              - heading "Platform Calgary" [level=3] [ref=e171]
+        - generic [ref=e173]:
+          - heading "Become a Partner" [level=3] [ref=e175]
+          - paragraph [ref=e176]: Interested in partnering with us? We'd love to explore how we can collaborate to create meaningful opportunities for the tech community.
+          - generic [ref=e177]:
+            - paragraph [ref=e178]: "Email us at:"
+            - link "techconnect@amgfoundation.ca" [ref=e179] [cursor=pointer]:
+              - /url: mailto:techconnect@amgfoundation.ca
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - heading "Real Stories, Real Impact" [level=2] [ref=e183]
+          - paragraph [ref=e184]: Every success story in our community reinforces our belief in the power of collective growth and mutual support.
+        - generic [ref=e185]:
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - img [ref=e189]
+              - img [ref=e191]
+              - img [ref=e193]
+              - img [ref=e195]
+              - img [ref=e197]
+            - blockquote [ref=e199]: "\"I owe a significant part of my success and growth to Tech Connect, and I can't express my gratitude enough. Here's to the continued growth and success of this wonderful community that has made such a positive impact on my life.\""
+            - generic [ref=e200]:
+              - img [ref=e202]
+              - generic [ref=e207]:
+                - generic [ref=e208]: Sathish
+                - generic [ref=e209]: Data Scientist at WestJet
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - img [ref=e213]
+              - img [ref=e215]
+              - img [ref=e217]
+              - img [ref=e219]
+              - img [ref=e221]
+            - blockquote [ref=e223]: "\"From resume building to interview prep, the support I received was exceptional. Highly recommend!\""
+            - generic [ref=e224]:
+              - img [ref=e226]
+              - generic [ref=e231]:
+                - generic [ref=e232]: Smith Patel
+                - generic [ref=e233]: Software Developer at Longview Systems
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - img [ref=e237]
+              - img [ref=e239]
+              - img [ref=e241]
+              - img [ref=e243]
+              - img [ref=e245]
+            - blockquote [ref=e247]: "\"I have secured job offer from City of Calgary. I appreciate the effort from members and admin. Great help with interview guidance. Thank you.\""
+            - generic [ref=e248]:
+              - img [ref=e250]
+              - generic [ref=e255]:
+                - generic [ref=e256]: Sunny
+                - generic [ref=e257]: System Administrator
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - img [ref=e261]
+              - img [ref=e263]
+              - img [ref=e265]
+              - img [ref=e267]
+              - img [ref=e269]
+            - blockquote [ref=e271]: "\"Group advice on interview and resume helped me to land my role in Canada. This is a great group, looking forward to give back to community.\""
+            - generic [ref=e272]:
+              - img [ref=e274]
+              - generic [ref=e279]:
+                - generic [ref=e280]: Bharti
+                - generic [ref=e281]: Data Engineer at Telus
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - img [ref=e285]
+              - img [ref=e287]
+              - img [ref=e289]
+              - img [ref=e291]
+              - img [ref=e293]
+            - blockquote [ref=e295]: "\"After nearly a year of relentless job applications, interviews, and moments of self-doubt, I finally landed a role as a Junior Full Stack Developer. The journey wasn't easy—it tested my patience, resilience, and determination at every step. And in this journey, Aki and Tech Connect played a huge role.\""
+            - generic [ref=e296]:
+              - img [ref=e298]
+              - generic [ref=e303]:
+                - generic [ref=e304]: Shivam Gupta
+                - generic [ref=e305]: Junior Full Stack Developer
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - img [ref=e309]
+              - img [ref=e311]
+              - img [ref=e313]
+              - img [ref=e315]
+              - img [ref=e317]
+            - blockquote [ref=e319]: "\"I wanted to extend my heartfelt thanks to Aki and the Tech Connect Alberta group for your instrumental support during my job search. Your guidance, recommendations, and trust in me were invaluable, and I'm deeply grateful for the role you played in helping me secure new role.\""
+            - generic [ref=e320]:
+              - img [ref=e322]
+              - generic [ref=e327]:
+                - generic [ref=e328]: Ravi
+                - generic [ref=e329]: Program Manager at Birlasoft
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - img [ref=e333]
+              - img [ref=e335]
+              - img [ref=e337]
+              - img [ref=e339]
+              - img [ref=e341]
+            - blockquote [ref=e343]: "\"A heartfelt thank you to Tech Connect — your community has been a guiding light throughout my journey. Special shoutout to Aki for always showing up with encouragement, guidance, and genuine support.\""
+            - generic [ref=e344]:
+              - img [ref=e346]
+              - generic [ref=e351]:
+                - generic [ref=e352]: Raksha Chaudhary
+                - generic [ref=e353]: Pricing and Campaign Analyst at Servus Credit Union
+          - generic [ref=e355]:
+            - generic [ref=e356]:
+              - img [ref=e357]
+              - img [ref=e359]
+              - img [ref=e361]
+              - img [ref=e363]
+              - img [ref=e365]
+            - blockquote [ref=e367]: "\"I want to extend my heartfelt thanks to the Tech Connect Alberta community. This incredible group played a significant role in my job search journey. From referrals and resume building to interview preparation, the support I received was truly invaluable.\""
+            - generic [ref=e368]:
+              - img [ref=e370]
+              - generic [ref=e375]:
+                - generic [ref=e376]: Anand Khimsurya
+                - generic [ref=e377]: Network Consultant at Long View Systems
+          - generic [ref=e379]:
+            - generic [ref=e380]:
+              - img [ref=e381]
+              - img [ref=e383]
+              - img [ref=e385]
+              - img [ref=e387]
+              - img [ref=e389]
+            - blockquote [ref=e391]: "\"I am beyond excited to share that I have taken a significant step forward in my career by transitioning into a Data Modeler role! A huge shout out to Aki for believing in me and providing a valuable reference that played a crucial role in securing this opportunity. This experience has reinforced my belief that with perseverance and the right people by your side, no career goal is out of reach.\""
+            - generic [ref=e392]:
+              - img [ref=e394]
+              - generic [ref=e399]:
+                - generic [ref=e400]: Rohan Kapoor
+                - generic [ref=e401]: Data Modeler
+        - generic [ref=e402]:
+          - heading "Ready to Transform Your Tech Career?" [level=3] [ref=e403]
+          - paragraph [ref=e404]: Join thousands of professionals who have accelerated their careers through our supportive community.
+          - button "Join Our Community" [ref=e406] [cursor=pointer]:
+            - text: Join Our Community
+            - img
+    - contentinfo [ref=e407]:
+      - generic [ref=e408]:
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - heading "Services" [level=3] [ref=e412]
+              - list [ref=e413]:
+                - listitem [ref=e414]:
+                  - button "Tech Consulting" [ref=e415] [cursor=pointer]
+                - listitem [ref=e416]:
+                  - button "Find Talent" [ref=e417] [cursor=pointer]
+                - listitem [ref=e418]:
+                  - button "Join Talent Pool" [ref=e419] [cursor=pointer]
+            - generic [ref=e420]:
+              - heading "Community" [level=3] [ref=e421]
+              - list [ref=e422]:
+                - listitem [ref=e423]:
+                  - button "Our Events" [ref=e424] [cursor=pointer]
+                - listitem [ref=e425]:
+                  - button "Our Team" [ref=e426] [cursor=pointer]
+                - listitem [ref=e427]:
+                  - button "Newsletter" [ref=e428] [cursor=pointer]
+            - generic [ref=e429]:
+              - heading "Connect" [level=3] [ref=e430]
+              - list [ref=e431]:
+                - listitem [ref=e432]:
+                  - button "Join Us" [ref=e433] [cursor=pointer]
+                - listitem [ref=e434]:
+                  - button "Volunteer" [ref=e435] [cursor=pointer]
+          - generic [ref=e437]:
+            - link "Instagram" [ref=e438] [cursor=pointer]:
+              - /url: https://www.instagram.com/techconnectalberta
+              - generic "instagram" [ref=e439]:
+                - img "instagram social icon" [ref=e441]
+            - link "LinkedIn" [ref=e446] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/tech-connectab
+              - generic "linkedin" [ref=e447]:
+                - img "linkedin social icon" [ref=e449]
+            - link "Discord" [ref=e454] [cursor=pointer]:
+              - /url: https://discord.gg/vbpXpK8vAy
+              - generic "discord" [ref=e455]:
+                - img "discord social icon" [ref=e457]
+        - paragraph [ref=e463]:
+          - text: © 2026 Tech Connect Alberta | Powered by
+          - link "AMG Foundation" [ref=e464] [cursor=pointer]:
+            - /url: https://amgfoundation.ca
