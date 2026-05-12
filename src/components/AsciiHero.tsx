@@ -72,10 +72,12 @@ export function AsciiHero() {
 			offCtx.fillStyle = "#000";
 			offCtx.fillRect(0, 0, maskW, maskH);
 			offCtx.fillStyle = "#fff";
-			offCtx.font = `900 ${Math.round(maskW * 0.4)}px "Geist Mono", "IBM Plex Mono", "SF Mono", ui-monospace, monospace`;
+			const tcScale = window.innerWidth < 768 ? 1 : 0.4;
+			const tcY = window.innerWidth < 768 ? maskH * 0.38 : maskH / 2;
+			offCtx.font = `900 ${Math.round(maskW * tcScale)}px "Geist Mono", "IBM Plex Mono", "SF Mono", ui-monospace, monospace`;
 			offCtx.textAlign = "center";
 			offCtx.textBaseline = "middle";
-			offCtx.fillText("TC", maskW / 2, maskH / 2);
+			offCtx.fillText("TC", maskW / 2, tcY);
 			textMask = offCtx.getImageData(0, 0, maskW, maskH).data;
 		};
 
