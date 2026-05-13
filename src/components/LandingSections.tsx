@@ -242,10 +242,10 @@ export function VolunteerSection() {
 }
 
 const partners = [
-	{ name: "AMG Foundation", logo: "https://techconnect.amgfoundation.ca/logos/AMGFoundation.jpeg", url: "https://www.amgfoundation.ca/" },
-	{ name: "Gateway", logo: "https://techconnect.amgfoundation.ca/logos/gateway-logo.svg", url: "https://gatewayconnects.ca/" },
-	{ name: "InceptionU", logo: "https://techconnect.amgfoundation.ca/logos/InceptionU.jpeg", url: "https://inceptionu.com/" },
-	{ name: "Platform Calgary", logo: "https://techconnect.amgfoundation.ca/logos/PlatformCalgary.jpeg", url: "https://www.platformcalgary.com/" },
+	{ name: "AMG Foundation", logo: "/logos/AMG.png", url: "https://www.amgfoundation.ca/" },
+	{ name: "Gateway", logo: "/logos/Gateway.png", url: "https://gatewayconnects.ca/" },
+	{ name: "InceptionU", logo: "/logos/InceptionU.png", url: "https://inceptionu.com/" },
+	{ name: "Platform Calgary", logo: "/logos/Platform_Calgary.png", url: "https://www.platformcalgary.com/" },
 ];
 
 const testimonials = [
@@ -313,25 +313,25 @@ export function PartnersSection() {
 					</p>
 				</SectionReveal>
 
-				<div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-					{partners.map((partner, index) => (
-						<SectionReveal key={partner.name} delay={index * 80}>
+				<SectionReveal delay={100}>
+					<div className="mt-20 flex flex-wrap items-center justify-center gap-x-10 gap-y-8 sm:gap-x-14">
+						<span className="font-mono text-xs md:text-sm uppercase tracking-widest text-foreground/50">Partners We Worked With</span>
+						
+						{partners.map((partner) => (
 							<a
+								key={partner.name}
 								href={partner.url}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="group flex flex-col items-center gap-5 rounded-[1.75rem] border border-foreground/15 bg-foreground/[0.045] p-8 text-center transition duration-300 hover:-translate-y-1 hover:border-accent/60"
+								className="font-sans text-xl md:text-2xl font-black uppercase tracking-wider text-foreground/50 transition duration-300 hover:text-foreground"
 							>
-								<div className="flex h-20 w-20 items-center justify-center rounded-full border border-foreground/10 bg-background p-3 transition group-hover:border-accent/40">
-									<img src={partner.logo} alt={`${partner.name} logo`} className="max-h-full max-w-full object-contain" />
-								</div>
-								<p className="font-mono text-xs uppercase tracking-[0.24em] text-foreground/55 transition group-hover:text-accent">
-									{partner.name}
-								</p>
+								{partner.name}
 							</a>
-						</SectionReveal>
-					))}
-				</div>
+						))}
+
+						<span className="font-mono text-xs md:text-sm uppercase tracking-widest text-foreground/50">+ Many More</span>
+					</div>
+				</SectionReveal>
 
 				<SectionReveal delay={120}>
 					<div className="mt-16 rounded-[2rem] border border-foreground/15 bg-foreground/[0.045] p-8 text-center sm:p-12">
@@ -389,7 +389,7 @@ export function TestimonialsSection() {
 							}`}
 						>
 							{group.map(t => (
-								<blockquote key={t.name} className="flex min-h-[280px] flex-col rounded-[1.75rem] border border-foreground/15 bg-foreground/[0.045] p-6 sm:p-8">
+								<blockquote key={t.name} className="flex h-[320px] flex-col rounded-[1.75rem] border border-foreground/15 bg-foreground/[0.045] p-6 sm:p-8">
 									<p className="flex-1 text-foreground/70 leading-relaxed">"{t.quote}"</p>
 									<div className="mt-6 shrink-0 border-t border-foreground/10 pt-4">
 										<p className="font-mono text-xs uppercase tracking-[0.24em] text-accent">{t.name}</p>
