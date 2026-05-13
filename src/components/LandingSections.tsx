@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ImagePlaceholder } from "./ImagePlaceholder";
+import { ImageCarousel } from "./ImageCarousel";
 import { SectionReveal } from "./SectionReveal";
 
 const stats = [
@@ -34,18 +35,22 @@ const programs = [
 	{
 		title: "Women Entrepreneurs Program",
 		copy: "Free digital support for women launching and growing businesses.",
+		image: "/women_e.jpeg",
 	},
 	{
 		title: "AI literacy workshops",
 		copy: "Practical learning experiences for youth and community members.",
+		image: "/AI_work.jpeg",
 	},
 	{
 		title: "Cybersecurity training",
 		copy: "Accessible digital safety education for seniors and under-resourced groups.",
+		image: "/cybersecurity.jpeg",
 	},
 	{
 		title: "Digital transformations",
 		copy: "Volunteer-powered support for local businesses and nonprofit initiatives.",
+		image: "/digital_transform.jpeg",
 	},
 ];
 
@@ -115,7 +120,13 @@ export function EventsSection() {
 				</SectionReveal>
 				<div className="mt-12 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
 					<SectionReveal>
-						<ImagePlaceholder label="Upcoming event visual" meta="Event image placeholder" aspect="wide" className="lg:aspect-[4/3]" />
+						<ImageCarousel
+							images={["/i_1.jpeg", "/i_2.jpeg", "/i_3.jpeg"]}
+							label="Upcoming event visual"
+							meta="Event image placeholder"
+							aspect="wide"
+							className="lg:aspect-[4/3]"
+						/>
 					</SectionReveal>
 					<div className="space-y-3">
 						{events.map((event, index) => (
@@ -154,7 +165,7 @@ export function ProgramsSection() {
 					{programs.map((program, index) => (
 						<SectionReveal key={program.title} delay={index * 70}>
 							<article className="group overflow-hidden rounded-[1.75rem] border border-foreground/15 bg-foreground/[0.045] transition duration-300 hover:border-accent/60">
-								<ImagePlaceholder label={program.title} meta="Program image placeholder" aspect="wide" className="rounded-none border-0" />
+								<ImagePlaceholder label={program.title} meta="Program image placeholder" aspect="wide" className="rounded-none border-0" src={program.image} />
 								<div className="p-6 sm:p-8">
 									<p className="font-mono text-xs uppercase tracking-[0.24em] text-accent">0{index + 1}</p>
 									<h3 className="mt-5 text-3xl font-bold leading-none tracking-[-0.05em]">{program.title}</h3>
