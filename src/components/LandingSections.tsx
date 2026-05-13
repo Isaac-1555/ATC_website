@@ -519,10 +519,7 @@ export function SiteFooter() {
 				</div>
 				<div className="mt-12 border-t border-foreground/10 pt-8 text-center">
 					<p className="font-mono text-xs uppercase tracking-[0.18em] text-foreground/40">
-						© 2026 Tech Connect Alberta | Powered by{" "}
-						<a href="https://amgfoundation.ca" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-4 transition hover:text-[#ef765f]">
-							AMG Foundation
-						</a>
+						© 2026 Tech Connect Alberta
 					</p>
 				</div>
 			</div>
