@@ -27,8 +27,9 @@ export function SiteNav() {
 						: "border-foreground/15 text-foreground/70"
 				}`}
 			>
-				<a href="/" className="text-foreground transition-colors hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
-					TCA
+				<a href="/" className="flex items-center gap-3 text-foreground transition-colors hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
+					<img src="/logos/Logo.png" alt="Tech Connect Alberta" className="h-14 w-auto" />
+					<span className="text-xs tracking-wider sm:text-sm">Tech Connect</span>
 				</a>
 				<ul className="hidden items-center gap-6 md:flex">
 					{navItems.map((item) => (
